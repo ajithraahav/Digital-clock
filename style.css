@@ -1,0 +1,32 @@
+@font-face {
+  font-family: digital;
+  src: url(digital-7.regular.ttf);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.clock {
+  font-family: digital;
+  color: rgb(86 255 247);
+  font-size: 68px;
+  background-color: black;
+  display: inline;
+  padding: 18px;
+  padding-bottom: 37px;
+  text-align: center;
+  width: 26%;
+  border-radius: 48px;
+  border: 6px solid #c2c2c2;
+  box-shadow: 8px 10px 31px -5px #535353;
+}
+.clock > p {
+  margin: 10% 0%;
+}
